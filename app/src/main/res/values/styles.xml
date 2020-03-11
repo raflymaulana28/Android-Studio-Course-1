@@ -18,5 +18,44 @@
     <style name="Button.Mulai">
         <item name="android:text">@string/mulai_ngambis</item>
     </style>
+    <style name="Button.Login">
+        <item name="android:text">@string/masuk</item>
+    </style>
+    <style name="Button.Daftar">
+        <item name="android:text">Daftar</item>
+    </style>
 
+    <style name="TextView" parent="Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="TextView.Large">
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/shape_grey</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:drawablePadding">20dp</item>
+    </style>
+
+    <style name="EditText.Username">
+        <item name="android:drawableStart">@drawable/ic_user</item>
+        <item name="android:hint">Username</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <style name="EditText.Email">
+        <item name="android:drawableStart">@drawable/ic_email_black_24dp</item>
+        <item name="android:hint">Email</item>
+        <item name="android:inputType">text</item>
+    </style>
+    <style name="EditText.Password">
+        <item name="android:drawableStart">@drawable/ic_lock</item>
+        <item name="android:hint">Password</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
 </resources>

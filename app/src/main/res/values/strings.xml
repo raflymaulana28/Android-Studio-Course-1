@@ -2,5 +2,9 @@
     <string name="app_name">ADS 1</string>
     <string name="ilustrasi">Ilustrasi</string>
     <string name="mulai_ngambis">Mulai Ngambis</string>
+    <string name="login">Login</string>
+    <string name="masuk">Masuk</string>
     <string name="welcome_to_ngambis_app">Welcome To Ngambis App</string>
+    <string name="background">Background</string>
+    <string name="login_dulu_gan_sebelum_ngambis">Login dulu gan sebelum ngambis</string>
 </resources>
